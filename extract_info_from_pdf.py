@@ -77,7 +77,7 @@ def main():
     # pdf_files = [f for f in os.listdir(pdf_directory) if f.endswith('.pdf')]
 
     pdf_files = list(
-        Path("/Users/priyesh.rughani/Downloads").glob("Payslip_300000002536654*.pdf")
+        Path("/Users/XXX/Downloads").glob("*_300000002536654*.pdf")
     )
 
     data = []
